@@ -18,8 +18,8 @@
     "gsap": "^3.13.0",
     "lucide-react": "^0.507.0",
     "postcss": "^8.5.3",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "three": "^0.176.0",
     "tailwindcss": "^4.1.5",
     "vite": "^6.3.5",
@@ -27,12 +27,13 @@
     "prettier": "^3.5.3"
   },
   "devDependencies": {
-    "@types/react": "^0.176.0",
-    "@types/react-dom": "^0.176.0",
+    "@types/react": "^18.2.41",
+    "@types/react-dom": "^18.2.17",
     "@types/three": "^0.176.0",
     "@typescript-eslint/eslint-plugin": "^7.5.0",
-        "@typescript-eslint/parser": "^7.5.0",
-        "eslint": "^8.7.0"
+    "@typescript-eslint/parser": "^7.5.0",
+    "eslint": "^8.7.0",
+    "typescript": "^5.4.5"
   },
   "scripts": {
     "dev": "vite",
@@ -42,23 +43,23 @@
     "format": "prettier --write .",
     "check-types": "tsc --noEmit"
   },
-    "eslintConfig": {
-        "extends": [
-            "eslint:recommended",
-            "plugin:@typescript-eslint/recommended"
-        ],
-        "parser": "@typescript-eslint/parser",
-        "plugins": [
-            "@typescript-eslint"
-        ],
-        "root": true
-    },
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "@typescript-eslint"
+    ],
+    "root": true
+  },
   "browserslist": [
     ">0.2%",
     "not dead",
     "not ie <= 11"
   ],
   "engines": {
-    "node": ">=18.0.0"
+    "node": "18.x"
   }
 }
